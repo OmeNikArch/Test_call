@@ -3,181 +3,224 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Материалы к тестовому звонку — Cerebro Click Out</title>
-<meta name="description" content="Информация о продукте и легенда звонка для кандидатов на позицию менеджера по продажам направления Click Out.">
-<meta name="robots" content="noindex">
+<meta name="robots" content="noindex,nofollow">
+<title>Материалы к тестовому звонку — Церебро Click Out</title>
+<meta property="og:title" content="Материалы к тестовому звонку — Церебро Click Out">
+<meta property="og:description" content="Продукт, клиент и легенда звонка. Всё, что нужно для подготовки.">
+<meta property="og:image" content="assets/og-default.png">
+<link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#000; --card:#272727; --card2:#111;
+    --txt:#E7E6E6; --mute:#A5A5A5; --yellow:#FDD101; --white:#fff;
+    --head:'Unbounded', Arial, sans-serif; --body:Arial, Helvetica, sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--txt);font-family:var(--body)}
+  section{min-height:100vh;padding:6vh 7vw;display:flex;flex-direction:column;justify-content:center;position:relative;border-bottom:1px solid #1a1a1a}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:26px}
+  .kicker .bar{width:44px;height:8px;background:var(--yellow)}
+  .kicker span{font-family:var(--head);font-weight:700;font-size:13px;letter-spacing:.08em;color:var(--yellow);text-transform:uppercase}
+  .num{position:absolute;top:5vh;right:7vw;color:var(--mute);font-size:14px}
+  h1{font-family:var(--head);font-weight:700;color:var(--white);font-size:clamp(26px,4.2vw,50px);line-height:1.12;margin-bottom:22px}
+  h2{font-family:var(--head);font-weight:700;color:var(--white);font-size:clamp(22px,3vw,38px);line-height:1.15;margin-bottom:26px}
+  .sub{font-size:clamp(16px,1.5vw,21px);line-height:1.45;max-width:62ch}
+  .sub + .sub{margin-top:18px}
+  .yline{color:var(--yellow);font-family:var(--head);font-weight:700;font-size:clamp(16px,1.6vw,22px);margin-top:30px;max-width:52ch;line-height:1.35}
+  .cards{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));margin-top:8px}
+  .card{background:var(--card);border-radius:18px;padding:24px 26px}
+  .card h3{font-family:var(--head);font-weight:700;color:var(--white);font-size:clamp(14px,1.3vw,19px);margin-bottom:12px}
+  .card p{font-size:clamp(13px,1.1vw,16px);line-height:1.45;color:var(--txt)}
+  .card.hl{border:2px solid var(--yellow)}
+  .qtag{display:inline-block;background:var(--card);border:1px solid #3a3a3a;color:var(--mute);font-size:13px;letter-spacing:.06em;text-transform:uppercase;border-radius:100px;padding:7px 16px;margin-bottom:20px}
+  .qtag b{color:var(--yellow);font-weight:700}
+  .qgrid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));max-width:1200px;margin-bottom:26px}
+  .qbox{background:var(--card2);border:1px solid #262626;border-radius:16px;padding:20px 24px}
+  .qbox .lbl{font-family:var(--head);font-weight:700;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--yellow);margin-bottom:12px}
+  .qbox p,.qbox li{font-size:clamp(13px,1.15vw,17px);line-height:1.5}
+  .qbox ul{list-style:none}
+  .qbox li{padding-left:18px;position:relative;margin-bottom:9px}
+  .qbox li::before{content:"→";position:absolute;left:0;color:var(--yellow)}
+  .nums{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin:8px 0 26px;max-width:1000px}
+  .nums div{background:var(--card);border-radius:18px;padding:26px}
+  .nums b{display:block;font-family:var(--head);font-weight:700;color:var(--yellow);font-size:clamp(28px,3.4vw,44px);line-height:1.1;margin-bottom:8px}
+  .nums span{color:var(--mute);font-size:15px}
+  .quotes{display:grid;gap:14px;max-width:900px;margin-top:8px}
+  .quotes p{background:var(--card2);border-left:4px solid var(--yellow);border-radius:0 14px 14px 0;padding:16px 20px;font-size:clamp(14px,1.2vw,18px);line-height:1.45;color:var(--txt)}
+  .logo{display:flex;align-items:center;gap:16px;margin-bottom:44px}
+  .logo .sign{width:56px;height:56px;background:var(--white);border:7px solid var(--yellow);display:flex;align-items:center;justify-content:center;font-family:var(--head);font-weight:700;color:#000;font-size:26px}
+  .logo .nm{font-family:var(--head);font-weight:700;color:var(--white);font-size:18px;line-height:1.25}
+  .foot{margin-top:auto;padding-top:24px;color:var(--mute);font-size:13px}
+  .sign-off{font-family:var(--head);font-weight:700;color:var(--white);font-size:clamp(15px,1.4vw,19px);line-height:1.5;margin-top:34px}
+  .sign-off span{display:block;font-family:var(--body);font-weight:400;color:var(--mute);font-size:15px;margin-top:6px}
+  @media (max-width:700px){section{padding:5vh 6vw}.num{display:none}}
+</style>
 </head>
 <body>
 
-<header class="top">
-  <div class="wrap">
-    <div class="brand">
-      <span class="dot"></span>
-      <span>Cerebro</span>
-      <span class="sep">/</span>
-      <span class="unit">Click Out</span>
-    </div>
-    <h1>Материалы к тестовому звонку</h1>
-    <p class="lead">Всё, что нужно знать о продукте и клиенте, чтобы провести звонок.</p>
+<!-- 01 Титул -->
+<section>
+  <div class="logo"><div class="sign">Ц</div><div class="nm">Церебро<br>Таргет</div></div>
+  <h1>Материалы к тестовому звонку</h1>
+  <p class="sub">Здравствуйте! Здесь всё, что нужно знать о продукте и клиенте,
+  чтобы провести звонок. Читайте спокойно, вопросы задавайте в начале нашего
+  разговора - на них отведено время.</p>
+  <p class="yline">Скрипт учить не нужно. Продукт для вас новый, и говорить о нём
+  своими словами - нормально.</p>
+</section>
+
+<!-- 02 Формат -->
+<section>
+  <div class="num">Формат</div>
+  <div class="kicker"><div class="bar"></div><span>Как пройдёт созвон</span></div>
+  <div class="cards">
+    <div class="card"><h3>30 минут</h3><p>Столько займёт весь созвон вместе с вопросами и разбором.</p></div>
+    <div class="card"><h3>Играем звонок</h3><p>Вы звоните в компанию из легенды, я отвечаю за клиента.</p></div>
+    <div class="card"><h3>Звонков два</h3><p>Второй пройдёт по другой вводной - её дам на созвоне.</p></div>
   </div>
-</header>
+  <div class="foot">Читать с листа не нужно. Метод ваш: как заходить, что спрашивать и чем цеплять - решаете сами.</div>
+</section>
 
-<main class="wrap">
+<!-- 03 Кто мы -->
+<section>
+  <div class="num">Компания</div>
+  <div class="kicker"><div class="bar"></div><span>Кто мы</span></div>
+  <h2>Церебро - агентство перформанс-маркетинга</h2>
+  <p class="sub">Направление Click Out работает с рекламой на маркетплейсах.
+  Источника три: Ozon Performance, Яндекс Маркет с продуктом Urban Ads
+  и WB.Media у Wildberries.</p>
+  <p class="sub">За время работы направления через нас прошло около 99 клиентов,
+  сейчас в работе активные размещения по всем трём источникам. В команде специалисты
+  по источникам, аккаунт-менеджеры и делопроизводство.</p>
+  <p class="yline">Продажи до сих пор вёл руководитель направления - поэтому и открыта
+  эта позиция.</p>
+</section>
 
-  <p>Здравствуйте!</p>
-
-  <p>Мы созвонимся на 30 минут и сыграем рабочий звонок: вы звоните в компанию,
-  я отвечаю за клиента. Звонков будет два, второй по другой вводной - её дам
-  на созвоне.</p>
-
-  <p>Скрипт учить не нужно, читать с листа тем более. Продукт для вас новый,
-  и говорить о нём своими словами - нормально. Вопросы задавайте в начале
-  разговора, на них отведено время.</p>
-
-  <h2>Кто мы</h2>
-
-  <p>Cerebro - агентство перформанс-маркетинга. Направление Click Out работает
-  с рекламой на маркетплейсах. Источника три:</p>
-
-  <ul>
-    <li>Ozon Performance</li>
-    <li>Яндекс Маркет, продукт Urban Ads</li>
-    <li>WB.Media (Wildberries)</li>
-  </ul>
-
-  <p>За время работы направления через нас прошло около 99 клиентов, сейчас
-  в работе активные размещения по всем трём источникам. В команде специалисты
-  по источникам, аккаунт-менеджеры и делопроизводство. Продажи до сих пор вёл
-  руководитель направления - поэтому и открыта эта позиция.</p>
-
-  <h2>Что мы продаём</h2>
-
-  <p>Две задачи, которые закрываем клиенту.</p>
-
-  <div class="card">
-    <h3>Трафик на сайт (click out)</h3>
-    <p>Реклама показывается внутри маркетплейса: в поиске и в карточках. Человек
-    кликает и попадает не на страницу товара у площадки, а на сайт клиента.
-    Клиент платит за переходы, а не отдаёт площадке комиссию с каждой продажи.</p>
+<!-- 04 Продукт -->
+<section>
+  <div class="num">Продукт</div>
+  <div class="kicker"><div class="bar"></div><span>Что мы продаём</span></div>
+  <div class="cards">
+    <div class="card"><h3>Трафик на сайт (click out)</h3><p>Реклама показывается внутри
+    маркетплейса: в поиске и в карточках. Человек кликает и попадает не на страницу товара
+    у площадки, а на сайт клиента. Клиент платит за переходы, а не отдаёт площадке комиссию
+    с каждой продажи.</p></div>
+    <div class="card hl"><h3>Охват и узнаваемость (медийная реклама)</h3><p>Задача не собрать
+    заявки прямо сейчас, а показать бренд большой аудитории и вырастить спрос на него.
+    Это то, что мы продаём активнее всего, и то, что вы будете продавать в звонке.</p></div>
   </div>
+  <p class="yline">На маркетплейсах больше 70 миллионов платёжеспособных людей, и приходят
+  они туда уже с намерением купить. Не листать ленту, а покупать.</p>
+</section>
 
-  <div class="card accent">
-    <h3>Охват и узнаваемость (медийная реклама)</h3>
-    <p>Задача не собрать заявки прямо сейчас, а показать бренд большой аудитории
-    и вырастить спрос на него. Это то, что мы продаём активнее всего, и то,
-    что вы будете продавать в звонке.</p>
+<!-- 05 Клиенты и деньги -->
+<section>
+  <div class="num">Клиенты</div>
+  <div class="kicker"><div class="bar"></div><span>Кому продаём и за сколько</span></div>
+  <p class="sub">Средний и крупный бизнес, чаще в услугах. Решение принимает собственник
+  или директор по маркетингу. Типичная ситуация клиента: реклама в Директе и соцсетях
+  дорожает год от года, заявки становятся дороже, а новых каналов не видно.</p>
+  <div class="qgrid" style="margin-top:30px">
+    <div class="qbox"><div class="lbl">Медийная кампания</div><p>от 1,2 млн рублей</p></div>
+    <div class="qbox"><div class="lbl">Предварительный аудит</div><p>5 000 рублей, 3-5 дней.
+    Показывает, подходит ли клиенту источник, какая у него аудитория в категории и какие риски</p></div>
+    <div class="qbox"><div class="lbl">Тестовый запуск</div><p>от 50 000 рублей, 2-3 недели</p></div>
+    <div class="qbox"><div class="lbl">Сопровождение</div><p>процент от рекламных расходов</p></div>
   </div>
+  <div class="foot">Аудит и тест - способ зайти осторожно, если клиент не готов сразу к большому бюджету. Стоимость аудита потом вычитается.</div>
+</section>
 
-  <p>Почему это работает: на маркетплейсах больше 70 миллионов платёжеспособных
-  людей, и приходят они туда уже с намерением купить. Не листать ленту,
-  а покупать. Такой аудитории нет ни у соцсетей, ни у поиска.</p>
-
-  <h2>Кому продаём</h2>
-
-  <p>Средний и крупный бизнес, чаще в услугах. Решение принимает собственник
-  или директор по маркетингу.</p>
-
-  <p>Типичная ситуация клиента: реклама в Директе и соцсетях дорожает год от года,
-  заявки становятся дороже, а новых каналов не видно.</p>
-
-  <h2>Деньги</h2>
-
-  <ul>
-    <li><strong>Медийная кампания</strong> - от 1,2 млн рублей</li>
-    <li><strong>Предварительный аудит</strong> - 5 000 рублей, 3-5 дней. Показывает,
-    подходит ли клиенту источник, какая у него аудитория в категории, какие риски</li>
-    <li><strong>Тестовый запуск</strong> - от 50 000 рублей, 2-3 недели</li>
-    <li><strong>Сопровождение</strong> - процент от рекламных расходов</li>
-  </ul>
-
-  <p>Аудит и тест - это способ зайти осторожно, если клиент не готов сразу
-  к большому бюджету. Стоимость аудита потом вычитается.</p>
-
-  <h2>Кейс, который можно называть</h2>
-
-  <div class="facts">
-    <div class="fact"><b>5 779</b><span>заказов</span></div>
-    <div class="fact"><b>320%</b><span>ROI</span></div>
-    <div class="fact"><b>Ozon</b><span>источник</span></div>
+<!-- 06 Кейс -->
+<section>
+  <div class="num">Кейс</div>
+  <div class="kicker"><div class="bar"></div><span>Что можно называть в разговоре</span></div>
+  <h2>ПиццаФабрика</h2>
+  <div class="nums">
+    <div><b>5 779</b><span>заказов</span></div>
+    <div><b>320%</b><span>ROI</span></div>
+    <div><b>Ozon</b><span>источник</span></div>
   </div>
-
-  <p>ПиццаФабрика. Важная деталь для разговора: пришли не разовые покупатели,
+  <p class="yline">Важная деталь для разговора: пришли не разовые покупатели,
   а постоянные клиенты.</p>
+</section>
 
-  <h2>Чем мы отличаемся от контекста и таргета</h2>
-
-  <p>Факты, а как их подать - решать вам:</p>
-
-  <ul>
-    <li>В Директе и соцсетях вы конкурируете за внимание человека, который занят
-    другим. На маркетплейсе человек уже пришёл покупать</li>
-    <li>Аукцион в контексте перегрет, ставки растут каждый год. Реклама
-    на маркетплейсах - молодая категория, конкуренции за места пока мало</li>
-    <li>При click out клиент платит за переход к себе на сайт, а не отдаёт
-    площадке процент с продажи</li>
-    <li>Медийная реклама работает не на сегодня, а на спрос завтра: человек
-    запоминает бренд и приходит за ним сам</li>
-  </ul>
-
-  <h2>Что клиент обычно спрашивает</h2>
-
-  <p>Готовых ответов не даём специально - интересно, как вы соберёте их сами.</p>
-
-  <div class="quote">«У меня услуги, я на маркетплейсах ничего не продаю. Мне это зачем?»</div>
-  <div class="quote">«Сколько заявок вы дадите и по какой цене?»</div>
-  <div class="quote">«За эти деньги я лучше усилю контекст, там хотя бы всё считается»</div>
-  <div class="quote">«Мы уже пробовали маркетплейсы, не пошло»</div>
-  <div class="quote">«У нас есть подрядчик по рекламе»</div>
-  <div class="quote">«Пришлите на почту, я посмотрю»</div>
-
-  <h2>Легенда звонка</h2>
-
-  <p><span class="tag">Вы</span> менеджер по продажам направления Click Out
-  в Cerebro. Первый звонок, с компанией раньше не общались.</p>
-
-  <div class="card">
-    <h3>Куда звоните</h3>
-    <p>Сеть фитнес-клубов «Атлант». Восемь клубов в Москве и области,
-    на рынке 11 лет.</p>
-
-    <h3>Что известно до звонка</h3>
-    <ul>
-      <li>Сайт есть, абонементы продают в том числе онлайн</li>
-      <li>Рекламу ведёт штатный маркетолог: Яндекс Директ и соцсети</li>
-      <li>Осенью открывают два новых клуба в Подмосковье</li>
-      <li>На маркетплейсах компания ничего не продаёт</li>
-      <li>Решение по рекламе принимает собственник, Сергей Владимирович</li>
-      <li>На входе секретарь</li>
-    </ul>
-
-    <h3>Что стоит выяснить в разговоре</h3>
-    <ul>
-      <li>Рекламный бюджет</li>
-      <li>Кто ещё участвует в решении</li>
-      <li>Как сейчас с загрузкой клубов</li>
-      <li>Пробовали ли что-то кроме Директа и соцсетей</li>
-    </ul>
+<!-- 07 Отличия -->
+<section>
+  <div class="num">Аргументы</div>
+  <div class="kicker"><div class="bar"></div><span>Чем мы отличаемся от контекста и таргета</span></div>
+  <div class="cards">
+    <div class="card"><h3>Другое состояние человека</h3><p>В Директе и соцсетях вы
+    конкурируете за внимание того, кто занят другим. На маркетплейсе человек уже пришёл покупать.</p></div>
+    <div class="card"><h3>Молодая категория</h3><p>Аукцион в контексте перегрет, ставки растут
+    каждый год. Реклама на маркетплейсах - категория молодая, конкуренции за места пока мало.</p></div>
+    <div class="card"><h3>Оплата за переход</h3><p>При click out клиент платит за переход
+    к себе на сайт, а не отдаёт площадке процент с каждой продажи.</p></div>
+    <div class="card"><h3>Работа на завтра</h3><p>Медийная реклама работает не на сегодня,
+    а на спрос завтра: человек запоминает бренд и приходит за ним сам.</p></div>
   </div>
+  <div class="foot">Это факты. Как их подать в разговоре - решать вам.</div>
+</section>
 
-  <div class="goal">
-    <p><b>Цель звонка:</b> назначить встречу на 15-20 минут.
-    Продавать по телефону не нужно.</p>
+<!-- 08 Вопросы клиента -->
+<section>
+  <div class="num">Возражения</div>
+  <div class="kicker"><div class="bar"></div><span>Что клиент обычно спрашивает</span></div>
+  <div class="quotes">
+    <p>«У меня услуги, я на маркетплейсах ничего не продаю. Мне это зачем?»</p>
+    <p>«Сколько заявок вы дадите и по какой цене?»</p>
+    <p>«За эти деньги я лучше усилю контекст, там хотя бы всё считается»</p>
+    <p>«Мы уже пробовали маркетплейсы, не пошло»</p>
+    <p>«У нас есть подрядчик по рекламе»</p>
+    <p>«Пришлите на почту, я посмотрю»</p>
   </div>
+  <p class="yline">Готовых ответов не даём специально - интересно, как вы соберёте их сами.</p>
+</section>
 
-  <p>Метод ваш. Как заходить, что спрашивать, чем цеплять - решаете сами.</p>
+<!-- 09 Легенда -->
+<section>
+  <div class="num">Легенда</div>
+  <div class="kicker"><div class="bar"></div><span>Куда и от чьего имени звоните</span></div>
+  <div class="qtag">Вы - менеджер по продажам направления <b>Click Out</b></div>
+  <h2>Сеть фитнес-клубов «Атлант»</h2>
+  <p class="sub">Восемь клубов в Москве и области, на рынке 11 лет. Первый звонок,
+  с компанией раньше не общались.</p>
+  <div class="qgrid" style="margin-top:30px">
+    <div class="qbox"><div class="lbl">Что известно до звонка</div>
+      <ul>
+        <li>Сайт есть, абонементы продают в том числе онлайн</li>
+        <li>Рекламу ведёт штатный маркетолог: Яндекс Директ и соцсети</li>
+        <li>Осенью открывают два новых клуба в Подмосковье</li>
+        <li>На маркетплейсах компания ничего не продаёт</li>
+        <li>Решение принимает собственник, Сергей Владимирович</li>
+        <li>На входе секретарь</li>
+      </ul>
+    </div>
+    <div class="qbox"><div class="lbl">Что стоит выяснить в разговоре</div>
+      <ul>
+        <li>Рекламный бюджет</li>
+        <li>Кто ещё участвует в решении</li>
+        <li>Как сейчас с загрузкой клубов</li>
+        <li>Пробовали ли что-то кроме Директа и соцсетей</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-  <p>До связи!</p>
-
-  <footer class="sign">
-    <b>Никита Омельченко</b>
-    Руководитель направления Click Out, Cerebro
-  </footer>
-
-</main>
+<!-- 10 Цель -->
+<section>
+  <div class="num">Цель</div>
+  <div class="kicker"><div class="bar"></div><span>Ради чего звоним</span></div>
+  <h1>Назначить встречу на 15-20 минут</h1>
+  <p class="sub">Продавать по телефону не нужно. Задача звонка - дойти до человека,
+  который принимает решение, и договориться о встрече.</p>
+  <p class="sign-off">До связи!
+    <span>Никита Омельченко · руководитель направления Click Out, Церебро</span>
+  </p>
+  <div class="foot">Церебро Таргет · направление Click Out · материалы для кандидата</div>
+</section>
 
 </body>
 </html>
